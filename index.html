@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=">
+  <script src="https://kit.fontawesome.com/4ead1d8b31.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title></title>
+</head>
+
+<body>
+
+  <div id="title">
+    <h1>
+      Sport Survey made as a project for FreeCodeCamp
+    </h1>
+  </div>
+
+  <div class="container">
+
+    <div class="form1">
+      <div class="form">
+        <input type="text" name="name" autocomplete="off" required>
+        <label for="name" class="label-name">
+          <span class="content-name">Name</span>
+        </label>
+      </div>
+      <div class="form">
+        <input type="text" name="name" autocomplete="off" required>
+        <label for="name" class="label-name">
+          <span class="content-name">E-mail</span>
+        </label>
+      </div>
+    </div>
+
+
+
+    <div class="form2">
+      <input type="radio" name="gender" id="woman">
+      <label for="woman">
+        <i class="fas fa-venus"></i>
+      </label>
+      <input type="radio" name="gender" id="man">
+      <label for="man">
+        <i class="fas fa-mars"></i>
+      </label>
+    </div>
+
+
+
+    <div class="form1">
+      <h1>How sport active you are? (40min period of time)</h1>
+      <div class="pseudo">
+        <div class="custom-select">
+          <select required>
+            <option value="None">None</option>
+            <option value="1-2">1-2 times a week</option>
+            <option value="3-4">3-4 times a week</option>
+            <option value="more">MORE!</option>
+          </select>
+          <span class="custom-arrow"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="form1">
+      <div class="checkbox-form">
+        <h1>What results expect you from your traning?</h1>
+        <form>
+          <input type="checkbox" id="Condition" name="checkbox-1" value="Condition">
+          <label for="Condition">Condition</label>
+          <input type="checkbox" id="Strength" name="checkbox-2" value="Strength">
+          <label for="Strength">Strength</label>
+          <input type="checkbox" id="Body_figure" name="checkbox-3" value="Body_figure">
+          <label for="Body_figure">Body figure</label>
+
+
+
+        </form>
+      </div>
+    </div>
+
+    <div class="form1">
+      <div class="form-group">
+        <p>Any comments or suggestions?</p>
+        <textarea id="comments" class="input-textarea" name="comment"
+          placeholder="Enter your comment here..."></textarea>
+      </div>
+    </div>
+    <div class="form1">
+      <div class="submit">
+        <button type="submit" id="submit" class="submit-button">
+          Submit
+        </button>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
